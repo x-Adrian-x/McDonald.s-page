@@ -1,238 +1,243 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: sans-serif;
-    height: 100vh;
+  font-family: sans-serif;
+  height: 100vh;
 }
 
 header a {
-    color:white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
-header{
-    display: flex;
-    flex-wrap: wrap;
-    min-height: 15%;
-    background-color: #14161a;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+header {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 15%;
+  background-color: #14161a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
 /* Logo McDonald's del Header*/
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 10px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
 }
 
 .logo img {
-    height: 50px;
+  height: 50px;
 }
 
 /* Buscador */
 
 .search-container {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
-header input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
-    margin-left: 16px;
-    font-size: 17px;
-    border: none;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+header input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-left: 16px;
+  font-size: 17px;
+  border: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 header .search-container button {
-    float: right;
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    cursor: pointer;
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  cursor: pointer;
 }
 
 header .search-container button:hover {
-    background: #ccc;
+  background: #ccc;
 }
 
 /* links del header(lado derecho) */
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 li {
-    float: right;
+  float: right;
 }
 
 .nav-link {
-    font-weight: bold;
-    height: 15vh;
-    display: flex;
-    align-items: center;
+  font-weight: bold;
+  height: 15vh;
+  display: flex;
+  align-items: center;
 }
 
-.nav-link:hover{
-    font-weight: bold;
-    color: black;
-    background-color: rgba(255, 208, 0, 0.89);
+.nav-link:hover {
+  font-weight: bold;
+  color: black;
+  background-color: rgba(255, 208, 0, 0.89);
 }
 
 /* boton despelegable */
 
 nav ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 nav a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-nav .dropbtn:hover, .dropdown:hover .dropbtn {
-    color: black;
-    background-color: rgba(255, 208, 0, 0.89);
-    font-weight: bold;
+nav .dropbtn:hover,
+.dropdown:hover .dropbtn {
+  color: black;
+  background-color: rgba(255, 208, 0, 0.89);
+  font-weight: bold;
 }
 
 li.dropdown {
-    display: inline-block;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #14161a;
-    min-width: 111px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    font-size: 12px;
+  display: none;
+  position: absolute;
+  background-color: #14161a;
+  min-width: 111px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 12px;
 }
 
 .dropdown-content a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
 .dropdown-content a:hover {
-    color: black;
-    background-color: white;
+  color: black;
+  background-color: white;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 /* El contenido */
 
 main {
-    background-color: brown;
-    height: 85%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  background-color: brown;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .tarjeta-producto {
-    width: 200px;
-    height: 200px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .imagen-producto {
-    width: 80%;
-    height: 80%;
-    transition: transform 0.3s ease-in-out;
+  max-width: 150px;
+  max-height: 140px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .tarjeta-producto:hover .imagen-producto {
-    transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 
 .tarjeta-producto .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 95%;
-    left: 50%;
-    margin-left: -60px;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 95%;
+  left: 50%;
+  margin-left: -60px;
 }
 
 .tarjeta-producto .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black transparent transparent transparent;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
 }
 
 .tarjeta-producto:hover .tooltiptext {
-    visibility: visible;
+  visibility: visible;
 }
 
-@media (max-width:860px) and (min-width: 680px){
-    header{
-        flex-direction: column;
-        padding: 0 10px;
-    }
-    .dropdown-content {
-        min-width: 109px;
-    }
-    .logo {
-        padding: 15px 0; 
-    }
+@media (max-width: 860px) and (min-width: 680px) {
+  header {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .dropdown-content {
+    min-width: 109px;
+  }
+
+  .logo {
+    padding: 15px 0;
+  }
 }
 
-@media (max-width:680px) {
-    header{
-        flex-direction: column;
-        padding: 0 10px;
-    }
-    main{
-        height: auto;
-        flex-direction: column;
-        padding: 40px 0;
-    }
-    .dropdown-content {
-        min-width: 109px;
-    }
-    .logo {
-        padding: 15px 0; 
-    }
-}
+@media (max-width: 680px) {
+  header {
+    flex-direction: column;
+    padding: 0 10px;
+  }
 
+  main {
+    height: auto;
+    flex-direction: column;
+    padding: 40px 0;
+  }
+
+  .dropdown-content {
+    min-width: 109px;
+  }
+
+  .logo {
+    padding: 15px 0;
+  }
+}
